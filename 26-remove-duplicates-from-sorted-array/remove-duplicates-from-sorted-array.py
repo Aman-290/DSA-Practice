@@ -9,7 +9,7 @@ class Solution:
                 stackdup.append(nums[i])
             else:
                 stack.append(nums[i])
-                
-        nums[:] = stack + stackdup
+
+        nums[:] = stack
         
         return len(stack)
